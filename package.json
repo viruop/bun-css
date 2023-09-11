@@ -1,0 +1,13 @@
+{
+  "name": "bun-css",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "cheerio": "^1.0.0-rc.12",
+    "css-to-tailwindcss": "^1.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

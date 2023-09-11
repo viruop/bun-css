@@ -1,0 +1,73 @@
+.gx {
+    @apply mx-auto;
+}
+.tv {
+    @apply max-w-2xl;
+}
+.ari {
+    @apply px-4;
+}
+.ary {
+    @apply py-24;
+}
+.cfc {
+    @apply px-6;
+}
+.cfm {
+    @apply py-32;
+}
+.cxj {
+    @apply max-w-7xl;
+}
+.ddh {
+    @apply px-8;
+}
+.mb {
+    @apply grid;
+}
+.yg {
+    @apply grid-cols-1;
+}
+.aam {
+    @apply gap-y-12;
+}
+.cat {
+    @apply grid-cols-2;
+}
+.cbz {
+    @apply gap-x-6;
+    -moz-column-gap: 1.5rem;
+}
+.cyt {
+    @apply grid-cols-4;
+}
+.czz {
+    @apply gap-x-8;
+    -moz-column-gap: 2rem;
+}
+.nq {
+    @apply h-24;
+}
+.tm {
+    @apply w-auto;
+}
+.lk {
+    @apply mt-6;
+}
+.awa {
+    @apply text-sm leading-5;
+}
+.awe {
+    @apply font-medium;
+}
+.axv {
+    @apply text-[rgb(17_24_39_/_var(--tw-text-opacity))];
+    --tw-text-opacity: 1;
+}
+.lb {
+    @apply mt-2;
+}
+.axr {
+    @apply text-[rgb(107_114_128_/_var(--tw-text-opacity))];
+    --tw-text-opacity: 1;
+}
