@@ -34,8 +34,8 @@ const converter = new TailwindConverter({
   },
 });
 
-const inputHtmlFile = Bun.file("index.html");
-const inputCSSFile = Bun.file("index.css");
+const inputHtmlFile = Bun.file("input.html");
+const inputCSSFile = Bun.file("input.css");
 
 const inputHtml = await inputHtmlFile.text();
 const inputCSS = await inputCSSFile.text();
@@ -50,7 +50,7 @@ $("[class]").each(function () {
   const elementClasses = $(this)?.attr("class")?.split(" ")!;
 
   // Add each class to the set
-  elementClasses.forEach((className: string) => {
+  elementClasses.forEach((className) => {
     uniqueClasses.add(className);
   });
 });
@@ -103,6 +103,7 @@ const outputFilePath = "output.html";
 await Bun.write(outputFilePath, $.html()).then(() =>
   console.log("Output HTML file created:", outputFilePath)
 );
+
 function filterCSSContent(inputCSS: string, classesToFind: string[]) {
   let filteredContent = "";
 
